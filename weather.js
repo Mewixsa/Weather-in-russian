@@ -18,7 +18,7 @@ async function getApi() {
     const formatDate = (dat) => {
         const months = [
             'Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн',
-            'Июль', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'
+            'Июль', 'Авг', 'Сен', 'Окт', 'Нояб', 'Дек'
         ];
 
         const date = new Date(dat);
