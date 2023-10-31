@@ -84,11 +84,11 @@ async function getApi() {
     const sunny = "sunny";
 
     if (weather.includes(rain)) {
-        mainimg.src = "./icons/clear 3.svg";
+        mainimg.src = "./icons/drizzle 1.svg";
         maintext.innerHTML = "Дождь";
     }
     if (weather.includes(Rain)) {
-        mainimg.src = "./icons/clear 3.svg";
+        mainimg.src = "./icons/drizzle 1.svg";
         maintext.innerHTML = "Дождь";
     }
 
