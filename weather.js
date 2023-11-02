@@ -560,9 +560,314 @@ async function getApi() {
     };
 
 
+     //робота с картинками ветра
+
+     let N = "N";
+     let NNF = "NNF";
+     let NE = "NE";
+     let ENE = "ENE";
+     let E = "E";
+     let ESE = "ESE";
+     let SE = "SE";
+     let SSE = "SSE";
+     let S = "S";
+     let SSW = "SSW";
+     let SW = "SW";
+     let WSW = "WSW";
+     let W = "W";
+     let WNW = "WNW";
+     let NW = "NW";
+     let NNW = "NNW";
+ 
+     let nwind6 = result.forecast.forecastday[0].hour[6].wind_dir;
+     let wind6 = document.getElementById("AM6_wind_img");
+ 
+     let nwind10 = result.forecast.forecastday[0].hour[10].wind_dir;
+     let wind10 = document.getElementById("AM10_wind_img");
+ 
+     let nwind14 = result.forecast.forecastday[0].hour[14].wind_dir;
+     let wind14 = document.getElementById("PM14_wind_img");
+ 
+     let nwind18 = result.forecast.forecastday[0].hour[18].wind_dir;
+     let wind18 = document.getElementById("PM18_wind_img");
+ 
+     let nwind22 = result.forecast.forecastday[0].hour[22].wind_dir;
+     let wind22 = document.getElementById("PM22_wind_img");
+ 
+ 
+ 
+ 
+     switch (nwind6) {
+         case N:
+             wind6.classList.add("rotate0")
+             break;
+         case NNF:
+             wind6.classList.add("rotate22")
+             break;
+         case NE:
+             wind6.classList.add("rotate45")
+             break;
+         case ENE:
+             wind6.classList.add("rotate68")
+             break;
+         case E:
+             wind6.classList.add("rotate90")
+             break;
+         case ESE:
+             wind6.classList.add("rotate112")
+             break;
+         case SE:
+             wind6.classList.add("rotate135")
+             break;
+         case SSE:
+             wind6.classList.add("rotate158")
+             break;
+         case S:
+             wind6.classList.add("rotate180")
+             break;
+         case SSW:
+             wind6.classList.add("rotate202")
+             break;
+         case SW:
+             wind6.classList.add("rotate225")
+             break;
+         case WSW:
+             wind6.classList.add("rotate248")
+             break;
+         case W:
+             wind6.classList.add("rotate270")
+             break;
+         case WNW:
+             wind6.classList.add("rotate292")
+             break;
+         case NW:
+             wind6.classList.add("rotate315")
+             break;
+         case NNW:
+             wind6.classList.add("rotate338")
+             break;
+         default:
+             break;
+     }
+ 
+     
+     switch (nwind10) {
+         case N:
+             wind10.classList.add("rotate0")
+             break;
+         case NNF:
+             wind10.classList.add("rotate22")
+             break;
+         case NE:
+             wind10.classList.add("rotate45")
+             break;
+         case ENE:
+             wind10.classList.add("rotate68")
+             break;
+         case E:
+             wind10.classList.add("rotate90")
+             break;
+         case ESE:
+             wind10.classList.add("rotate112")
+             break;
+         case SE:
+             wind10.classList.add("rotate135")
+             break;
+         case SSE:
+             wind10.classList.add("rotate158")
+             break;
+         case S:
+             wind10.classList.add("rotate180")
+             break;
+         case SSW:
+             wind10.classList.add("rotate202")
+             break;
+         case SW:
+             wind10.classList.add("rotate225")
+             break;
+         case WSW:
+             wind10.classList.add("rotate248")
+             break;
+         case W:
+             wind10.classList.add("rotate270")
+             break;
+         case WNW:
+             wind10.classList.add("rotate292")
+             break;
+         case NW:
+             wind10.classList.add("rotate315")
+             break;
+         case NNW:
+             wind10.classList.add("rotate338")
+             break;
+         default:
+             break;
+     }
+ 
+     
+     switch (nwind14) {
+         case N:
+             wind14.classList.add("rotate0")
+             break;
+         case NNF:
+             wind14.classList.add("rotate22")
+             break;
+         case NE:
+             wind14.classList.add("rotate45")
+             break;
+         case ENE:
+             wind14.classList.add("rotate68")
+             break;
+         case E:
+             wind14.classList.add("rotate90")
+             break;
+         case ESE:
+             wind14.classList.add("rotate112")
+             break;
+         case SE:
+             wind14.classList.add("rotate135")
+             break;
+         case SSE:
+             wind14.classList.add("rotate158")
+             break;
+         case S:
+             wind14.classList.add("rotate180")
+             break;
+         case SSW:
+             wind14.classList.add("rotate202")
+             break;
+         case SW:
+             wind14.classList.add("rotate225")
+             break;
+         case WSW:
+             wind14.classList.add("rotate248")
+             break;
+         case W:
+             wind14.classList.add("rotate270")
+             break;
+         case WNW:
+             wind14.classList.add("rotate292")
+             break;
+         case NW:
+             wind14.classList.add("rotate315")
+             break;
+         case NNW:
+             wind14.classList.add("rotate338")
+             break;
+         default:
+             break;
+     }
+ 
+     
+     switch (nwind18) {
+         case N:
+             wind18.classList.add("rotate0")
+             break;
+         case NNF:
+             wind18.classList.add("rotate22")
+             break;
+         case NE:
+             wind18.classList.add("rotate45")
+             break;
+         case ENE:
+             wind18.classList.add("rotate68")
+             break;
+         case E:
+             wind18.classList.add("rotate90")
+             break;
+         case ESE:
+             wind18.classList.add("rotate112")
+             break;
+         case SE:
+             wind18.classList.add("rotate135")
+             break;
+         case SSE:
+             wind18.classList.add("rotate158")
+             break;
+         case S:
+             wind18.classList.add("rotate180")
+             break;
+         case SSW:
+             wind18.classList.add("rotate202")
+             break;
+         case SW:
+             wind18.classList.add("rotate225")
+             break;
+         case WSW:
+             wind18.classList.add("rotate248")
+             break;
+         case W:
+             wind18.classList.add("rotate270")
+             break;
+         case WNW:
+             wind18.classList.add("rotate292")
+             break;
+         case NW:
+             wind18.classList.add("rotate315")
+             break;
+         case NNW:
+             wind18.classList.add("rotate338")
+             break;
+         default:
+             break;
+     }
+ 
+     
+     switch (nwind22) {
+         case N:
+             wind22.classList.add("rotate0")
+             break;
+         case NNF:
+             wind22.classList.add("rotate22")
+             break;
+         case NE:
+             wind22.classList.add("rotate45")
+             break;
+         case ENE:
+             wind22.classList.add("rotate68")
+             break;
+         case E:
+             wind22.classList.add("rotate90")
+             break;
+         case ESE:
+             wind22.classList.add("rotate112")
+             break;
+         case SE:
+             wind22.classList.add("rotate135")
+             break;
+         case SSE:
+             wind22.classList.add("rotate158")
+             break;
+         case S:
+             wind22.classList.add("rotate180")
+             break;
+         case SSW:
+             wind22.classList.add("rotate202")
+             break;
+         case SW:
+             wind22.classList.add("rotate225")
+             break;
+         case WSW:
+             wind22.classList.add("rotate248")
+             break;
+         case W:
+             wind22.classList.add("rotate270")
+             break;
+         case WNW:
+             wind22.classList.add("rotate292")
+             break;
+         case NW:
+             wind22.classList.add("rotate315")
+             break;
+         case NNW:
+             wind22.classList.add("rotate338")
+             break;
+         default:
+             break;
+     }
+
     // все
 };
 
-time_line
 
 
