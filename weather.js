@@ -9,8 +9,6 @@ async function getApi() {
 
     // Работа с первым блоком
 
-    
-
     let city_val = document.getElementById("city_val").innerHTML = document.getElementById("city_line").value;
 
     let timedata = result.location.localtime;
