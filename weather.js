@@ -8,6 +8,7 @@ async function getApi() {
 
     // Работа с первым блоком
 
+    alert("Впишите свой город, и нажмите поиск.")
 
     let city_val = document.getElementById("city_val").innerHTML = document.getElementById("city_line").value;
 
