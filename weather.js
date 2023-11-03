@@ -316,15 +316,12 @@ async function getApi() {
     }
 
     // третья строчка
-    d_frc_3_img.src = "./icons/clear 3.svg";
     d_frc_3_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c) - 2} °C`
 
     //четвертая строчка
-    d_frc_4_img.src = "./icons/clouds 2.png";
     d_frc_4_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c) + 2} °C`
 
-    //пятая строчка 
-    d_frc_5_img.src = "./icons/rain 1.svg";
+    //пятая строчка
     d_frc_5_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c) + 2} °C`
 
 
