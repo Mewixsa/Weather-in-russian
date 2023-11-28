@@ -120,20 +120,6 @@ input:checked+.slider:before {
     padding: 10px 80px 10px 35px;
 }
 
-input {
-    font-size: 18px;
-    border: none;
-    float: left;
-    margin-left: 30px;
-    width: 620px;
-    background: transparent;
-
-}
-
-input::placeholder {
-    color: #292929;
-}
-
 .search button {
     float: left;
     width: fit-content;
@@ -146,6 +132,20 @@ input::placeholder {
     content: "";
     clear: both;
     display: table;
+}
+
+input {
+    font-size: 18px;
+    border: none;
+    float: left;
+    margin-left: 30px;
+    width: 620px;
+    background: transparent;
+
+}
+
+input::placeholder {
+    color: #292929;
 }
 
 .location {
@@ -354,66 +354,66 @@ p {
     outline: none;
 }
 
-.rotate0{
+.rotate0 {
     rotate: 0deg;
 }
 
-.rotate22{
+.rotate22 {
     rotate: 22deg;
 }
 
-.rotate45{
+.rotate45 {
     rotate: 45deg;
 }
 
-.rotate68{
+.rotate68 {
     rotate: 68deg;
 }
 
-.rotate90{
+.rotate90 {
     rotate: 90deg;
 }
 
-.rotate112{
+.rotate112 {
     rotate: 112deg;
 }
 
-.rotate135{
+.rotate135 {
     rotate: 135deg;
 }
 
-.rotate158{
+.rotate158 {
     rotate: 158deg;
 }
 
-.rotate180{
+.rotate180 {
     rotate: 180deg;
 }
 
-.rotate202{
+.rotate202 {
     rotate: 202deg;
 }
 
-.rotate225{
+.rotate225 {
     rotate: 225deg;
 }
 
-.rotate248{
+.rotate248 {
     rotate: 248deg;
 }
 
-.rotate270{
+.rotate270 {
     rotate: 270deg;
 }
 
-.rotate292{
+.rotate292 {
     rotate: 292deg;
 }
 
-.rotate315{
+.rotate315 {
     rotate: 315deg;
 }
 
-.rotate338{
+.rotate338 {
     rotate: 338;
 }
