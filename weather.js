@@ -260,81 +260,81 @@ async function getApi() {
     if (weather_forecast_2.includes(rain)) {
         d_frc_2_img.src = "./icons/drizzle 1.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
 
     }
     if (weather_forecast_2.includes(Rain)) {
         d_frc_2_img.src = "./icons/drizzle 1.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
 
     if (weather_forecast_2.includes(Sunny)) {
         d_frc_2_img.src = "./icons/clear 3.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
 
     }
     if (weather_forecast_2.includes(sunny)) {
         d_frc_2_img.src = "./icons/clear 3.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
 
     if (weather_forecast_2.includes(snow)) {
         d_frc_2_img.src = "./icons/rain 1.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
     if (weather_forecast_2.includes(Snow)) {
         d_frc_2_img.src = "./icons/rain 1.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
 
     if (weather_forecast_2.includes(Clear)) {
         d_frc_2_img.src = "./icons/clear 3.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
 
     }
     if (weather_forecast_2.includes(clear)) {
         d_frc_2_img.src = "./icons/clear 3.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
 
     if (weather_forecast_2.includes(Clouds)) {
         d_frc_2_img.src = "./icons/clouds 1.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
     if (weather_forecast_2.includes(clouds)) {
         d_frc_2_img.src = "./icons/clouds 3.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
 
     if (weather_forecast_2.includes(cloudy)) {
         d_frc_2_img.src = "./icons/clouds 2.png";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
     if (weather_forecast_2.includes(Cloudy)) {
         d_frc_2_img.src = "./icons/clouds 2.png";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
 
     if (weather_forecast_2.includes("Blizzard")) {
         d_frc_2_img.src = "./icons/rain 1.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
     if (weather_forecast_2.includes("blizzard")) {
         d_frc_2_img.src = "./icons/rain 1.svg";
         d_frc_2_date.innerHTML = date_fr_2;
-        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[1].day.avgtemp_c)} °C`;
+        d_frc_2_C.innerHTML = `${Math.round(result.forecast.forecastday[2].day.avgtemp_c)} °C`;
     }
 
     // третья строчка
