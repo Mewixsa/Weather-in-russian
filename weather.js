@@ -1,5 +1,11 @@
 alert("Впишите свой город, и нажмите поиск.")
 
+function checkEnter(event) {
+    if (event.keyCode === 13) {
+        getApi();
+    }
+}
+
 async function getApi() {
     let a = document.getElementById("city_line").value;
     let data = `https://api.weatherapi.com/v1/forecast.json?key=8b7cab1863ae4b3d83f185637231109&q=${a}&days=6&aqi=no&alerts=no`;
