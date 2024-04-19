@@ -1,4 +1,3 @@
-alert("Впишите свой город, и нажмите поиск.")
 
 function checkEnter(event) {
     if (event.keyCode === 13) {

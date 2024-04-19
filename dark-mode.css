@@ -2,7 +2,6 @@
 
 body {
     color: #ffffff;
-    background-color: rgb(35, 35, 35);
 }
 
 .search {
@@ -16,7 +15,7 @@ body {
 }
 
 section {
-    background-color: #444;
+    background-color: #4444449c;
 }
 
 h2,

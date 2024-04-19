@@ -80,15 +80,16 @@ function showPosition(position) {
         city_line.value = data.address.village;
       } else if (data.address.hamlet) {
         city_line.value = data.address.hamlet;
-      }else {
-        alert("Sorry, your city could not be found")
+      } else {
+        alert("Извините, ваш город не найден!")
       }
-
+      setTimeout(getApi(), 5000);
     })
     .catch(error => {
       console.log(error);
       alert("Ошибка при получении города.");
     });
+
 }
 
 
